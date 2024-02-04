@@ -15,7 +15,7 @@ const Footer = () => {
         </svg>
         <p>Copyright © 2023 - All right reserved</p>
       </aside>
-      <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <nav className="grid-flow-col gap-4 justify-self-center md:place-self-center md:justify-self-end ">
         <a>
           <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -14,9 +14,6 @@ const Navbar = () => {
         <NavLink to={"/gallery"}>Gallery</NavLink>
       </li>
       <li>
-        <NavLink to={"/jewel"}>Jewellery</NavLink>
-      </li>
-      <li>
         <NavLink to={"/register"}>Registration</NavLink>
       </li>
       <li>
@@ -59,8 +56,8 @@ const Navbar = () => {
       </div>
       <div className="navbar-end gap-4">
         {user ? (
-          <div className="flex flex-col md:flex-row gap-2 items-center">
-            <h3>{user.displayName}</h3>
+          <div className="flex flex-row gap-2 items-center">
+            <h3 className="hidden md:block">{user.displayName}</h3>
             {user?.photoURL && (
               <img className="rounded-full w-10" src={user.photoURL} />
             )}

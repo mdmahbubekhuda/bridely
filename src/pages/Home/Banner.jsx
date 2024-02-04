@@ -25,7 +25,10 @@ const Banner = () => {
               alt=""
             />
           </div>
-          <div data-aos="fade-down" className="space-y-6 basis-1/2">
+          <div
+            data-aos="fade-down"
+            className="space-y-6 basis-1/2 text-center md:text-left"
+          >
             <img src="/public/images/Banner_ring.png" alt="" />
             <h1 className="text-4xl font-bold max-w-[15ch]">
               Perfect Weddings Made Easy!

@@ -7,7 +7,6 @@ import ServiceDetails from "../pages/ServiceDetails";
 import PrivateRoute from "../pages/PrivateRoutes/PrivateRoute";
 import ErrorPage from "../pages/ErrorPage";
 import Gallery from "../pages/PrivateRoutes/Gallery";
-import Shop from "../pages/PrivateRoutes/Shop";
 
 const router = createBrowserRouter([
   {
@@ -41,14 +40,6 @@ const router = createBrowserRouter([
         element: (
           <PrivateRoute>
             <Gallery />
-          </PrivateRoute>
-        ),
-      },
-      {
-        path: "/jewel",
-        element: (
-          <PrivateRoute>
-            <Shop />
           </PrivateRoute>
         ),
       },
