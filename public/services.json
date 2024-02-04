@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wemf-001",
+    "cover": "https://images.unsplash.com/photo-1603123566743-f976cad43ee8?q=80&w=1501&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Elegant Wedding Car Rentals",
+    "shortDescription": "Arrive in style with our fleet of elegant wedding cars.",
+    "description": "Make a grand entrance on your special day with our elegant wedding car rentals. Our meticulously maintained fleet of luxury vehicles is designed to add a touch of sophistication to your wedding day. From classic limousines to modern, sleek cars, we have a range of options to suit your style and preferences. Our professional drivers will ensure a smooth and memorable ride, allowing you to arrive in style at your wedding venue. Trust us to make your journey to the altar as special as your love story. Contact us today to book your dream wedding car.",
+    "price": "$500 - $1,000 per day"
+  },
+  {
+    "id": "wemf-002",
+    "cover": "https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Exquisite Wedding Ring Selection",
+    "shortDescription": "Discover the perfect symbol of eternal love in our exquisite wedding ring collection.",
+    "description": "At our wedding ring boutique, we understand that your wedding ring is a symbol of eternal love and commitment. Explore our exquisite collection of wedding rings, carefully curated to capture the essence of your special bond. Whether you prefer timeless and traditional designs or modern and unique styles, we have a ring that will reflect your love story. Our expert jewelers are dedicated to helping you find the perfect ring that fits your style and budget. Let us be a part of your journey to forever. Visit our store today and let your love shine.",
+    "price": "Starting from $1,000"
+  },
+  {
+    "id": "wemf-003",
+    "cover": "https://images.unsplash.com/photo-1610377507996-dcd4f0cfc125?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Cherished Wedding Gift Registry",
+    "shortDescription": "Create a dream wedding registry for cherished gifts and lasting memories.",
+    "description": "Build your dream wedding registry with us and create cherished memories that will last a lifetime. Our registry service allows you to curate a list of gifts that reflect your style and preferences. Whether you're dreaming of elegant home decor, fine china, or unforgettable experiences, we have a wide range of options for your guests to choose from. Let your loved ones be a part of your journey as they contribute to your new life together. Our easy-to-use platform makes it simple for guests to select and purchase gifts, ensuring a stress-free experience for both you and your loved ones. Start building your dream registry today and make your wedding day even more special.",
+    "price": "Varies based on selected gifts"
+  },
+  {
+    "id": "wemf-004",
+    "cover": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Expert Wedding Videography and Photography",
+    "shortDescription": "Capture your special moments with the expertise of our videographers and photographers.",
+    "description": "Relive the magic of your wedding day with our expert videography and photography services. Our talented team of professionals specializes in capturing every precious moment, from the heartfelt vows to the joyous celebrations. We use state-of-the-art equipment and artistic techniques to create stunning and timeless memories for you and your loved ones. Our unobtrusive approach ensures that we capture the candid moments and emotions that make your day unique. Trust us to create a visual masterpiece that you'll treasure for generations to come. Contact us to book our services and turn your wedding moments into a cinematic experience.",
+    "price": "$2,000 - $5,000"
+  },
+  {
+    "id": "wemf-005",
+    "cover": "https://plus.unsplash.com/premium_photo-1664530452329-42682d3a73a7?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Exquisite Wedding Venue Decoration",
+    "shortDescription": "Transform wedding venues with exquisite interior decoration for unforgettable moments.",
+    "description": "Turn your wedding venue into a fairy tale setting with our exquisite interior decoration services. Our team of talented designers will work closely with you to bring your vision to life, creating a magical atmosphere that reflects your love story. Whether you dream of a romantic garden theme, a glamorous ballroom setting, or a rustic outdoor affair, we have the expertise to make it a reality. From stunning floral arrangements to elegant table settings and lighting, every detail will be meticulously planned and executed to perfection. Let us transform your venue into a breathtaking backdrop for your special moments. Contact us to start planning your dream wedding decor today.",
+    "price": "$1,500 - $3,500"
+  },
+  {
+    "id": "wemf-006",
+    "cover": "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Memorable Anniversary Celebration Coordination",
+    "shortDescription": "Plan a memorable anniversary celebration with our expert event coordination services.",
+    "description": "Celebrate your love and commitment with a memorable anniversary celebration coordinated by our experts. Whether it's your first anniversary or a milestone year, we specialize in creating unforgettable moments that capture the essence of your journey together. Our team will handle all the details, from venue selection and decoration to entertainment and catering. We tailor every aspect to your preferences, ensuring that your celebration is a reflection of your love story. Let us take care of the planning and coordination so that you can focus on cherishing the moments with your loved one. Contact us to start planning your memorable anniversary celebration.",
+    "price": "$1,000 - $3,000"
+  }
+]
