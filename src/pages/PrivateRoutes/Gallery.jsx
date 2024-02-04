@@ -1,47 +1,54 @@
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
+
 const Gallery = () => {
   return (
-    <div className="mx-auto w-3/4">
-      <div className="carousel w-full">
-        <div id="item1" className="carousel-item w-full">
+    <>
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
           <img
-            src="https://i.ibb.co/NNDgzmG/pexels-pixabay-265720.jpg"
-            className="w-full"
+            src="https://images.unsplash.com/photo-1580151134699-e0cfbeb763d3?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            className="h-[100vh] mx-auto"
           />
-        </div>
-        <div id="item2" className="carousel-item w-full">
+        </SwiperSlide>
+        <SwiperSlide>
           <img
-            src="https://i.ibb.co/TKHDmhR/pexels-jonathan-borba-3014853.jpg"
-            className="w-full"
+            src="https://images.unsplash.com/flagged/photo-1620830102229-9db5c00d4afc?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            className="h-[100vh] mx-auto"
           />
-        </div>
-        <div id="item3" className="carousel-item w-full">
+        </SwiperSlide>
+        <SwiperSlide>
           <img
-            src="https://i.ibb.co/SmWLPhF/pexels-sergio-souza-1779491.jpg"
-            className="w-full"
+            src="https://images.unsplash.com/photo-1628046276142-a614ec8c5504?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            className="h-[100vh] mx-auto"
           />
-        </div>
-        <div id="item4" className="carousel-item w-full">
+        </SwiperSlide>
+        <SwiperSlide>
           <img
-            src="https://i.ibb.co/BqQwjPv/pexels-jonathan-borba-2965275.jpg"
-            className="w-full"
+            src="https://plus.unsplash.com/premium_photo-1675107359841-eb9142494289?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            className="h-[100vh] mx-auto"
           />
-        </div>
-      </div>
-      <div className="flex justify-center w-full py-2 gap-2">
-        <a href="#item1" className="btn btn-xs">
-          1
-        </a>
-        <a href="#item2" className="btn btn-xs">
-          2
-        </a>
-        <a href="#item3" className="btn btn-xs">
-          3
-        </a>
-        <a href="#item4" className="btn btn-xs">
-          4
-        </a>
-      </div>
-    </div>
+        </SwiperSlide>
+      </Swiper>
+    </>
   );
 };
 
