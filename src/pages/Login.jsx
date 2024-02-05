@@ -1,11 +1,11 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { AiFillGoogleCircle } from "react-icons/ai";
+import { AiFillGithub, AiFillGoogleCircle } from "react-icons/ai";
 import { useAuthContext } from "../hooks/useAuthContext";
 import toast from "react-hot-toast";
 import { Helmet } from "react-helmet";
 
 const Login = () => {
-  const { googleSignIn, logIn } = useAuthContext();
+  const { githubSignIn, googleSignIn, logIn } = useAuthContext();
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -19,6 +19,16 @@ const Login = () => {
       .then(() => {
         e.target.reset();
         toast.success("You've Successfully Logged In");
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((err) => toast.error(err.message));
+  };
+
+  // github sign in
+  const handleGithubSignIn = () => {
+    githubSignIn()
+      .then(() => {
+        toast.success("Github Signed In Successfully!");
         navigate(location?.state ? location.state : "/");
       })
       .catch((err) => toast.error(err.message));
@@ -85,10 +95,20 @@ const Login = () => {
                 </button>
               </div>
             </form>
-            <div className="mx-auto mb-8 p-4 text-lg border w-fit rounded-lg hover:btn-neutral">
+            <div className="flex flex-col md:flex-row gap-4 mx-auto mb-8 p-2 text-lg w-fit">
+              {/* github sign in */}
+              <button
+                onClick={handleGithubSignIn}
+                className="border p-2 rounded-lg hover:btn-neutral"
+              >
+                <AiFillGithub className="inline" /> Github SignIn
+              </button>
               {/* google sign in */}
-              <button onClick={handleGoogleSignIn}>
-                <AiFillGoogleCircle className="inline" /> SignIn with Google
+              <button
+                onClick={handleGoogleSignIn}
+                className="border p-2 rounded-lg hover:btn-neutral"
+              >
+                <AiFillGoogleCircle className="inline" /> Google SignIn
               </button>
             </div>
           </div>
